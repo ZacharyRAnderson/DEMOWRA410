@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "DemoWRA410",
+    "version": "1.0",
+    "description": "Content script changing background color.",
+    "content_scripts": [
+      {
+        "matches": ["https://*.example.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+}
+  
